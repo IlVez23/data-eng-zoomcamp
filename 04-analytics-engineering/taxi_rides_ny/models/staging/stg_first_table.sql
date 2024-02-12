@@ -1,0 +1,1 @@
+select * from {{ source('staging', 'TAXI_GREEN_NEW') }}
